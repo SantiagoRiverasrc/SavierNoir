@@ -65,14 +65,6 @@ body{
     margin-top: 30px;
 }
 
-.re{
-    transition: 0.4s;
-    border-radius: 10px;
-}
-
-.re:hover{
-    background-color: black;
-}
 
 .po{
     transition: 0.4s;

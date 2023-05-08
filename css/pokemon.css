@@ -1,0 +1,29 @@
+
+
+.contepoke{
+    width: 100%;
+    margin-top: 20px;
+    background-color: gray;
+    transition: 0.5s ease-in-out;
+}
+
+.contepoke:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.tipoconta{
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+.rs{
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.rs:hover{
+    background-color: black;
+}

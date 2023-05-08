@@ -4,9 +4,13 @@ const objTask = {
     nombre: ''
 }
 
+
+
+
 const $formulario = document.getElementById('createtask')
 const $btnSubmit = document.getElementById('addtask')
 const $input = document.getElementById('entradanombre')
+
 
 
 /*Borra la tarea */
@@ -15,6 +19,7 @@ const deleteTask = (id) => {
     listTask = listTask.filter(task => task.id !== id);
     clear();
     showTask();
+    
 }
 
 
@@ -45,7 +50,6 @@ const validateForm = e => {
     e.preventDefault()
     objTask.id = Date.now();
     objTask.nombre = $input.value
-
     addTask();
 }
 
@@ -98,9 +102,8 @@ const clearObject = () => {
 
 
 const showTask = () => {
-
     clear()
-    
+
     const $divTask = document.querySelector('.listtask')
 
     listTask.forEach(task => {
